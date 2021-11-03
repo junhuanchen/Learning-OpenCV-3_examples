@@ -90,9 +90,10 @@ add_executable( Exercises_5   Exercises_5.cpp   )
 # add_executable( Exercises_7 Exercises_7.cpp )
 # add_executable( Exercises_8_1 Exercises_8_1.cpp )
 # add_executable( Exercises_9_1-2-10-11-12-15-16 Exercises_9_1-2-10-11-12-15-16.cpp )
-add_executable( Exercises_9_4 Exercises_9_4.cpp ) 
+add_executable( Exercises_9_4 Exercises_9_4.cpp )
 add_executable( Exercises_9_5 Exercises_9_5.cpp )
 # add_executable( Exercises_11-1-2-5-6-7 Exercises_11-1-2-5-6-7.cpp )
+add_executable( Exercises_13_1-2-11 Exercises_13_1-2-11.cpp )
 
 ################
 ###   LINK   ###
@@ -165,7 +166,7 @@ target_link_libraries( example_20-01 ${OpenCV_LIBS} )
 # target_link_libraries( example_21-01 ${OpenCV_LIBS} )
 # target_link_libraries( example_22-01 ${OpenCV_LIBS} )
 
-# NOW LINK EXERCISES 
+# NOW LINK EXERCISES
 target_link_libraries( Exercises_5 ${OpenCV_LIBS} )
 # target_link_libraries( Exercises_7 ${OpenCV_LIBS} )
 # target_link_libraries( Exercises_8_1 ${OpenCV_LIBS} )
@@ -173,3 +174,4 @@ target_link_libraries( Exercises_5 ${OpenCV_LIBS} )
 target_link_libraries( Exercises_9_4 ${OpenCV_LIBS} )
 target_link_libraries( Exercises_9_5 ${OpenCV_LIBS} )
 # target_link_libraries( Exercises_11-1-2-5-6-7 ${OpenCV_LIBS} )
+target_link_libraries( Exercises_13_1-2-11 ${OpenCV_LIBS} )
